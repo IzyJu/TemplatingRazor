@@ -1,0 +1,21 @@
+﻿@model IEnumerable<String>
+<!DOCTYPE HTML>
+<HTML>
+<body>
+    <table>
+        <tr>
+        @foreach (var name in Model)
+        {
+                <th>@name   </th>
+        }
+        </tr>
+        <tr>
+        @foreach (var name in Model)
+        {
+            <th>@name   </th>
+        }
+        </tr>
+
+</table>
+</body>
+</HTML>
